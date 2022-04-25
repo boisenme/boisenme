@@ -460,7 +460,7 @@
 
 video::-webkit-media-controls-panel {
   background-color: #000;
-  opacity: 0;
+  opacity: 0.5;
 }
 
 body {
