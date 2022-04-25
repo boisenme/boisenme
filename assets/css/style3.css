@@ -20,10 +20,6 @@
     }
 }
 
-.background {
-    opacity: 0;
-}
-
 .placeholderImage {
     opacity: 0;
 }
@@ -614,7 +610,8 @@ body {
 }
 
 .player .controls {
-  height: 45px;
+  height: 45px;¨
+  opacity: 0;
 }
 
 .player.audio .controls {
