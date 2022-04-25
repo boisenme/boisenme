@@ -20,6 +20,11 @@
     }
 }
 
+.splash {
+  display: none;
+  background-image: url(images/splash.png);
+}
+
 .placeholderImage {
     opacity: 0;
 }
