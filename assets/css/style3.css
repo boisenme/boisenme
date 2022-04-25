@@ -465,7 +465,7 @@
 /* Player                                            */
 /* ------------------------------------------------- */
 
-video::-webkit-media-controls-panel {
+.player .media-controls-panel {
   background-color: #000;
   opacity: 0;
 }
@@ -512,7 +512,15 @@ body {
   display: none;
 }
 
+.overlay {
+  display: none;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+}
+
 .player.launching .overlay {
+  display: none;
   display: block;
   position: absolute;
   left: 96px;
