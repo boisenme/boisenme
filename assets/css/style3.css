@@ -458,6 +458,13 @@
 /* Player                                            */
 /* ------------------------------------------------- */
 
+video::-webkit-media-controls-panel {
+  background-color: #000;
+  opacity: 0;
+}
+
+
+
 body {
     background-color: #000;
   }
@@ -619,10 +626,12 @@ body {
   }
   
   .player .controls {
+    opacity: 0;
     height: 45px;
   }
   
   .player.audio .controls {
+    opacity: 0;
     width: 576px;
   }
   
