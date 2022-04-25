@@ -86,11 +86,10 @@
     font-size: 22px;
     opacity: 0;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0);
-    -webkit-transition: opacity 1s linear
 }
 
 .gcpa .message.gcpe {
-    opacity: 1.0
+    opacity: 0.0
 }
 
 .gcpa .watermark {
@@ -233,7 +232,6 @@
 }
 
 .gcpa[state="launching"] .gcpr {
-    -webkit-animation: spin 1s infinite linear;
     height: 36px;
     width: 32px;
     display: block;
@@ -255,12 +253,10 @@
 .gcpa[state="loading"] .gcpn {
     width: 90% !important;
     opacity: 0;
-    -webkit-animation: loading 2s infinite linear
 }
 
 .gcpa[state="buffering"] .gcpl {
     background-image: url(buffering.png);
-    -webkit-animation: spin 1s infinite linear;
     opacity: 0;
 }
 
@@ -362,11 +358,13 @@
 .gcpa[type="audio"][state="playing"] .gcpp,
 .gcpa[type="audio"][state="playing"] .gcpq,
 .gcpa[type="audio"][state="playing"] .gcpl {
+    opacity: 0;
     display: none
 }
 
 .gcpa[type="audio"][state="buffering"] .watermark,
 .gcpa[type="audio"][state="playing"] .watermark {
+    opacity: 0;
     display: block;
     margin-bottom: 0
 }
@@ -429,12 +427,10 @@
 .gcpa[type="video"][state="paused"]:not(.gcps) .gcpp,
 .gcpa[type="video"][state="paused"]:not(.gcps) .gcpq {
     opacity: 0;
-    -webkit-transition: opacity 1s linear 5s
 }
 
 .gcpa[type="video"][state="paused"] .gcpc {
     opacity: 0.0;
-    -webkit-transition: opacity 1s linear 5s
 }
 
 .gcpa[type="video"][state="playing"] video {
