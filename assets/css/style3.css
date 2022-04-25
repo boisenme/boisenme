@@ -454,10 +454,10 @@
 /* Player                                            */
 /* ------------------------------------------------- */
 
-video::-webkit-media-controls-panel {
+/* video::-webkit-media-controls-panel {
   background-color: #000;
   opacity: 0.5  ;
-}
+} */
 
 body {
   opacity: 0;
@@ -585,7 +585,7 @@ body {
   padding: 5px;
 }
 
-.player .media-info .media-subtitle {
+.player .media-info .media-subtitle .media-controls-panel{
   color: #999;
   padding: 5px;
   opacity: 0;
