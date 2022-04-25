@@ -20,10 +20,6 @@
     }
 }
 
-.splash {
-  display: none;
-  background-image: url(images/splash.png);
-}
 
 .placeholderImage {
     opacity: 0;
@@ -35,6 +31,8 @@
 }
 
 .gcpa {
+    all: initial;
+    all: unset;
     display: none;
     background: #111;
     color: rgba(255, 0, 255, 0);
@@ -86,6 +84,8 @@
     opacity: 0;
     text-align: center;
     display: none;
+    all: initial;
+    all: unset;
 }
 
 .gcpa .message {
@@ -466,6 +466,8 @@
 /* ------------------------------------------------- */
 
 .player .media-controls-panel {
+  all: initial;
+  all: unset;
   background-color: #000;
   opacity: 0;
 }
@@ -509,6 +511,8 @@ body {
 }
 
 .player .overlay {
+  all: initial;
+  all: unset;
   display: none;
 }
 
