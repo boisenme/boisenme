@@ -30,6 +30,7 @@
 }
 
 .gcpa {
+    display: none;
     background: #111;
     color: rgba(255, 0, 255, 0);
     font-family: 'Open Sans', sans-serif;
@@ -42,6 +43,7 @@
 .gcpa .gcpc,
 .gcpa .logo,
 .gcpa .splash {
+    display: none;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -64,6 +66,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
+    display: none;
 }
 
 .gcpa .logo,
@@ -77,6 +80,7 @@
     position: absolute;
     opacity: 0;
     text-align: center
+    display: none;
 }
 
 .gcpa .message {
@@ -142,6 +146,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: none;
     width: 80%
 }
 
@@ -274,6 +279,7 @@
 
 .gcpa[type="image"][state="loading"] .background,
 .gcpa[type="image"][state="paused"] .background {
+    display: none;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     background-image: none
@@ -437,7 +443,7 @@
 .gcpa[type="video"][state="playing"] .gcpc,
 .gcpa[type="video"][state="playing"] .gcpd,
 .gcpa[type="video"][state="playing"] .watermark {
-    display: block;
+    display: none;
     visibility: hidden
 }
 
@@ -564,11 +570,6 @@ body {
 .player.video.seeking .media-info {
   display: none;
 }
-
-.media-controls-panel {
-  display: none;
-}
-
 .player .media-artwork {
   background-size: contain;
   background-position: bottom;
@@ -603,7 +604,6 @@ body {
 }
 
 .player.video .media-info {
-  display: none;
   display: table-cell;
   height: 279px;
   vertical-align: bottom;
@@ -616,7 +616,6 @@ body {
 }
 
 .player .controls {
-  display: none;
   height: 45px;
 }
 
@@ -652,7 +651,6 @@ body {
 }
 
 .player .controls-progress {
-  display: none;
   height: 12px;
   background-color: rgba(255,255,255,0.2);
   margin-top: 16px;
