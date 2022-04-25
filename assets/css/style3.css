@@ -511,12 +511,12 @@ body {
 }
 
 .player .overlay {
-  all: initial;
-  all: unset;
   display: none;
 }
 
 .overlay {
+  all: initial;
+  all: unset;
   display: none;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0);
