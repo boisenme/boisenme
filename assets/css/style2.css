@@ -459,6 +459,7 @@
 /* ------------------------------------------------- */
 
 body {
+    opacity: 0;
     background-color: #000;
   }
   
@@ -467,6 +468,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #f1f1f1;
+    opacity: 0;
     font-family: 'Open Sans',sans-serif;
     font-weight: 300;
     position: absolute;
@@ -485,6 +487,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: 0;
     background-color: #000;
     background-size: cover;
     background-position: center;
@@ -501,6 +504,7 @@ body {
   }
   
   .player.launching .overlay {
+    opacity: 0;
     display: block;
     position: absolute;
     left: 96px;
@@ -515,12 +519,14 @@ body {
   
   .player .logo {
     display: none;
+    opacity: 0;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
   }
   
   .player.launching .logo {
+    opacity: 0;
     display: block;
     position: absolute;
     bottom: 50%;
@@ -529,6 +535,7 @@ body {
   
   .player:not(.launching)  .logo {
     display: block;
+    opacity: 0;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -572,6 +579,7 @@ body {
   .player .media-info .media-title {
     color: #ddd;
     line-height: 100%;
+    opacity: 0;
     font-size: 66px;
     padding: 5px;
   }
@@ -579,18 +587,21 @@ body {
   .player .media-info .media-subtitle {
     color: #999;
     padding: 5px;
+    opacity: 0;
     line-height: 100%;
     font-size: 33px;
   }
   
   .player.audio .media-artwork {
     width: 576px;
+    opacity: 0;
     height: 576px;
   }
   
   .player.video .media-artwork {
     width: 144px;
     height: 215px;
+    opacity: 0;
     float: left;
     margin-right: 20px;
     margin-bottom: 64px;
@@ -598,6 +609,7 @@ body {
   
   .player.video .media-info {
     display: table-cell;
+    opacity: 0;
     height: 279px;
     vertical-align: bottom;
     padding-bottom: 64px;
@@ -624,6 +636,7 @@ body {
   
   .player .controls-play-pause {
     background-size: cover;
+    opacity: 0;
     border: 0;
     height: 44px;
     width: 44px;
@@ -632,6 +645,7 @@ body {
   
   .player.buffering .controls-play-pause {
     background-image: url("assets/buffering.png");
+    opacity: 0;
     -webkit-animation: spin 1s infinite linear;
   }
   
@@ -645,6 +659,7 @@ body {
   
   .player .controls-progress {
     height: 12px;
+    opacity: 0;
     background-color: rgba(255,255,255,0.2);
     margin-top: 16px;
     position: relative;
@@ -652,6 +667,7 @@ body {
   }
   
   .player .controls-progress-inner {
+    opacity: 0;
     height: 100%;
     background-color: #3563ae;
   }
@@ -659,6 +675,7 @@ body {
   .player .controls-progress-thumb {
     height: 100%;
     width: 4px;
+    opacity: 0;
     background-color: rgba(255,255,255,0.5);
     position: absolute;
     top: 0;
@@ -669,6 +686,7 @@ body {
   
   .player .controls-cur-time, .player .controls-total-time {
     font-size: 24px;
+    opacity: 0;
     line-height: 44px;
     margin: 0 15px;
   }
@@ -699,7 +717,6 @@ body {
   
   .player.loading .controls-progress-inner {
     width: 50px !important;
-    -webkit-animation: loading 1s infinite ease-in;
   }
   
   /* ------------------------------------------------- */
@@ -709,6 +726,7 @@ body {
   .player {
     background-image: url("assets/background.png");
     background-position: center;
+    opacity: 0;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -716,6 +734,7 @@ body {
   .player.launching .logo {
     background-image: url("assets/logo.png");
     margin-top: -28px;
+    opacity: 0;
     margin-left: -38px;
     width: 76px;
     height: 57px;
