@@ -51,6 +51,13 @@ a {
     font-weight: 300
 }
 
+a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
+  -webkit-transition:none !important;
+  -moz-transition:none !important;
+  -o-transition:none !important;
+  transition:none !important;
+}
+
 .gcpa,
 .gcpa .background,
 .gcpa .gcpb,
