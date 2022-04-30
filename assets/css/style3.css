@@ -80,6 +80,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa .message,
 .gcpa .gcpd,
 .gcpa .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     position: absolute;
     top: 64px;
     left: 64px;
@@ -88,6 +92,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .background {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,6 +104,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 
 .gcpa .logo,
 .gcpa .splash {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-position: center;
     background-repeat: no-repeat;
     color: rgba(221, 221, 221, 0);
@@ -108,6 +120,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .message {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-repeat: no-repeat;
     color: rgba(255, 255, 255, 0);
     font-size: 22px;
@@ -116,16 +132,28 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .message.gcpe {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0.0
 }
 
 .gcpa .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none;
     background-position: bottom right;
     background-repeat: no-repeat
 }
 
 .gcpa video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none;
     background-color: #111;
     background-position: center;
@@ -136,35 +164,63 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpd {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none;
     top: auto
 }
 
 .gcpa .gcpc {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none;
     opacity: 0;
     background: rgba(0, 0, 0, 0)
 }
 
 .gcpa .gcpf {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     width: 100%
 }
 
 .gcpa .gcpg {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat
 }
 
 .gcpa .placeholderImage {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none
 }
 
 .gcpa .gcph {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     padding-bottom: 54px
 }
 
 .gcpa .gcpi {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     color: rgba(255, 255, 255, 0.0);
     font-size: 44px;
     white-space: nowrap;
@@ -174,6 +230,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpj {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     color: rgba(203, 203, 203, 0.0);
     font-size: 22px;
     line-height: 33px;
@@ -183,6 +243,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpj span:not(:first-child):before {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     content: '\0000b7';
     padding-left: 10px;
     padding-right: 10px;
@@ -190,6 +254,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpk {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     bottom: 0;
     height: 30px;
     left: 0;
@@ -198,6 +266,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-size: cover;
     border: 0;
     float: left;
@@ -208,6 +280,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpm {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-color: rgba(255, 255, 255, 0.0);
     height: 8px;
     margin-top: 11px;
@@ -217,11 +293,19 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpn {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 100%;
     opacity: 0
 }
 
 .gcpa .gcpo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 100%;
     width: 3px;
     background-color: rgba(255, 255, 255, 0.0);
@@ -232,12 +316,20 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 
 .gcpa .gcpp,
 .gcpa .gcpq {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     color: rgba(255, 255, 255, 0.0);
     font-size: 16px;
     font-weight: 400
 }
 
 .gcpa .gcpp {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     float: left;
     line-height: 30px;
     margin-left: 15px;
@@ -245,20 +337,36 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa .gcpq {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     float: right;
     line-height: 30px;
     margin-left: 15px
 }
 
 .gcpa .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     margin-bottom: 54px
 }
 
 .gcpa[state="launching"] .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[state="launching"] .gcpr {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 36px;
     width: 32px;
     display: block;
@@ -273,35 +381,67 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa[state="loading"] .gcpq,
 .gcpa[state="loading"] .gcpo,
 .gcpa[state="loading"] .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none
 }
 
 .gcpa[state="loading"] .gcpn {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     width: 90% !important;
     opacity: 0;
 }
 
 .gcpa[state="buffering"] .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0;
 }
 
 .gcpa[state="paused"] .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
 }
 
 .gcpa[state="playing"] .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none
 }
 
 .gcpa[state="idle"] .splash {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="image"][state="paused"] video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="image"][state="loading"] .background,
 .gcpa[type="image"][state="paused"] .background {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     background-image: none
@@ -309,34 +449,58 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 
 .gcpa[type="audio"] .gcpi,
 .gcpa[type="audio"] .gcpi {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     font-size: 22px;
     font-weight: 400
 }
 
 .gcpa[type="audio"] .gcpg,
 .gcpa[type="audio"] .gcpg {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 384px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0);
     width: 384px
 }
 
 .gcpa[type="audio"] .gcpf {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     margin-top: 15px
 }
 
 .gcpa[type="audio"] .placeholderImage,
 .gcpa[type="audio"] .placeholderImage {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="audio"][state="loading"] .gcpd,
 .gcpa[type="audio"][state="paused"] .gcpd {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     margin: 0 !important
 }
 
 .gcpa[type="audio"][state="loading"] .watermark,
 .gcpa[type="audio"][state="paused"] .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     margin: 0 !important;
     margin-bottom: 54px !important
@@ -344,23 +508,39 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 
 .gcpa[type="audio"][state="buffering"] .gcpd,
 .gcpa[type="audio"][state="playing"] .gcpd {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="audio"][state="buffering"] .gcph,
 .gcpa[type="audio"][state="playing"] .gcph {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     padding-bottom: 0
 }
 
 .gcpa[type="audio"][state="buffering"] .gcpf,
 .gcpa[type="audio"][state="playing"] .gcpf {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     float: left;
     margin-top: 19px
 }
 
 .gcpa[type="audio"][state="buffering"] .gcpk,
 .gcpa[type="audio"][state="playing"] .gcpk {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 4px;
     position: absolute;
     width: 384px;
@@ -372,6 +552,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 
 .gcpa[type="audio"][state="buffering"] .gcpm,
 .gcpa[type="audio"][state="playing"] .gcpm {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     height: 4px;
     margin-top: 0;
     margin-bottom: 0
@@ -383,22 +567,38 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa[type="audio"][state="playing"] .gcpp,
 .gcpa[type="audio"][state="playing"] .gcpq,
 .gcpa[type="audio"][state="playing"] .gcpl {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0;
     display: none
 }
 
 .gcpa[type="audio"][state="buffering"] .watermark,
 .gcpa[type="audio"][state="playing"] .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0;
     display: block;
     margin-bottom: 0
 }
 
 .gcpa[type="video"] .gcph {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: flex
 }
 
 .gcpa[type="video"] .gcpg {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     align-self: flex-end;
     height: 143px;
     margin-right: 32px;
@@ -406,25 +606,45 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 }
 
 .gcpa[type="video"] .gcpf {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     align-self: flex-end
 }
 
 .gcpa[type="video"][state="loading"] .gcpd,
 .gcpa[type="video"][state="loading"] .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="video"][state="buffering"] video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="video"][state="buffering"] .gcpc,
 .gcpa[type="video"][state="buffering"] .gcpd {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     visibility: visible
 }
 
 .gcpa[type="video"][state="buffering"] .gcpc {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0.0
 }
 
@@ -432,16 +652,28 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa[type="video"][state="buffering"] .gcpp,
 .gcpa[type="video"][state="buffering"] .gcpq,
 .gcpa[type="video"][state="buffering"] .gcpm {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none
 }
 
 .gcpa[type="video"][state="paused"] video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="video"][state="paused"] .gcpc,
 .gcpa[type="video"][state="paused"] .gcpd,
 .gcpa[type="video"][state="paused"] .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     visibility: visible
 }
@@ -451,30 +683,54 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa[type="video"][state="paused"]:not(.gcps) .gcpm,
 .gcpa[type="video"][state="paused"]:not(.gcps) .gcpp,
 .gcpa[type="video"][state="paused"]:not(.gcps) .gcpq {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0;
 }
 
 .gcpa[type="video"][state="paused"] .gcpc {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     opacity: 0.0;
 }
 
 .gcpa[type="video"][state="playing"] video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block
 }
 
 .gcpa[type="video"][state="playing"] .gcpc,
 .gcpa[type="video"][state="playing"] .gcpd,
 .gcpa[type="video"][state="playing"] .watermark {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: block;
     visibility: hidden
 }
 
 .gcpa[type="video"][state="playing"].gcps .gcpc,
 .gcpa[type="video"][state="playing"].gcps .gcpd {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     visibility: visible
 }
 
 .gcpa[type="video"][state="playing"].gcps .gcph {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     display: none
 }
 
@@ -483,6 +739,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 /* ------------------------------------------------- */
 
 .player .media-controls-panel {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   all: initial;
   all: unset;
   background-color: #000;
@@ -494,6 +754,10 @@ body {
 }
 
 .player {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -508,10 +772,18 @@ body {
 }
 
 .player.idle, .player.done {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-image: url('done.png');
 }
 
 .player img, .player video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   position: absolute;
   width: 100%;
@@ -524,14 +796,26 @@ body {
 
 .player.image img, .player.video.buffering video, 
 .player.video.playing video, .player.video.paused video {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: block;
 }
 
 .player .overlay {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .overlay {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   all: initial;
   all: unset;
   display: none;
@@ -541,6 +825,10 @@ body {
 }
 
 .player.launching .overlay {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   display: block;
   position: absolute;
@@ -555,6 +843,10 @@ body {
 /* ------------------------------------------------- */
 
 .player .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   background-size: contain;
   background-repeat: no-repeat;
@@ -562,6 +854,10 @@ body {
 }
 
 .player.launching .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: block;
   position: absolute;
   bottom: 50%;
@@ -569,6 +865,10 @@ body {
 }
 
 .player:not(.launching)  .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: block;
   position: absolute;
   bottom: 0;
@@ -577,6 +877,10 @@ body {
 }
 
 .player.video.playing .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
@@ -589,6 +893,10 @@ body {
 .player.audio.seeking .overlay, .player.video.buffering .overlay,
 .player.video.loading .overlay, .player.video.paused .overlay,
 .player.video.seeking .overlay {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: block;
   position: absolute;
   left: 96px;
@@ -602,20 +910,36 @@ body {
 .player.video.paused .media-info,
 .player.video.seeking .media-artwork,
 .player.video.seeking .media-info {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .media-controls-panel {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .player .media-artwork {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
 .player .media-info .media-title {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   color: #ddd;
   line-height: 100%;
   font-size: 66px;
@@ -623,6 +947,10 @@ body {
 }
 
 .player .media-info .media-subtitle {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   color: #999;
   padding: 5px;
   line-height: 100%;
@@ -630,11 +958,19 @@ body {
 }
 
 .player.audio .media-artwork {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   width: 576px;
   height: 576px;
 }
 
 .player.video .media-artwork {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   width: 144px;
   height: 215px;
   float: left;
@@ -643,6 +979,10 @@ body {
 }
 
 .player.video .media-info {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   display: table-cell;
   height: 279px;
@@ -652,25 +992,45 @@ body {
 
 .player.launching .controls, .player.launching .media-info,
 .player.launching .media-artwork {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .player .controls {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   height: 45px;
 }
 
 .player.audio .controls {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   width: 576px;
 }
 
 .player.video .controls {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
 .player .controls-play-pause {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-size: cover;
   border: 0;
   height: 44px;
@@ -679,19 +1039,35 @@ body {
 }
 
 .player.buffering .controls-play-pause {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-image: url("assets/buffering.png");
   -webkit-animation: spin 1s infinite linear;
 }
 
 .player.paused .controls-play-pause {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-image: url("assets/paused.png");
 }
 
 .player.playing .controls-play-pause {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .player .controls-progress {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
   height: 12px;
   background-color: rgba(255,255,255,0.2);
@@ -701,11 +1077,19 @@ body {
 }
 
 .player .controls-progress-inner {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   height: 100%;
   background-color: #3563ae;
 }
 
 .player .controls-progress-thumb {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   height: 100%;
   width: 4px;
   background-color: rgba(255,255,255,0.5);
@@ -717,25 +1101,45 @@ body {
 }
 
 .player .controls-cur-time, .player .controls-total-time {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   font-size: 24px;
   line-height: 44px;
   margin: 0 15px;
 }
 
 .player .controls-cur-time {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   float: left;
 }
 
 .player .controls-total-time {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   float: right;
 }
 
 .player.audio .controls {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   height: 12px;
   margin: 5px 0 15px;
 }
 
 .player.audio .controls-progress {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   margin-top: 0;
 }
 
@@ -743,10 +1147,18 @@ body {
 .player.audio .controls-play-pause, .player.audio.loading .controls-progress-thumb,
 .player.video.loading .controls-cur-time, .player.video.loading .controls-total-time,
 .player.video.loading .controls-progress-thumb, .player.video.loading .controls-play-pause {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   display: none;
 }
 
 .player.loading .controls-progress-inner {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   width: 50px !important;
   -webkit-animation: loading 1s infinite ease-in;
 }
@@ -756,6 +1168,10 @@ body {
 /* ------------------------------------------------- */
 
 .player {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-image: url("assets/background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -763,6 +1179,10 @@ body {
 }
 
 .player.launching .logo {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   background-image: url("assets/logo.png");
   margin-top: -28px;
   margin-left: -38px;
@@ -771,5 +1191,9 @@ body {
 }
 
 .player.playing .controls-cur-time {
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
   margin-left: 0;
 }
