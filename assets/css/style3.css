@@ -64,6 +64,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa .gcpc,
 .gcpa .logo,
 .gcpa .splash {
+  -webkit-transition:none !important;
+  -moz-transition:none !important;
+  -o-transition:none !important;
+  transition:none !important;
     position: absolute;
     bottom: 0;
     left: 0;
