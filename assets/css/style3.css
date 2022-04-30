@@ -2,10 +2,12 @@
 
 @-webkit-keyframes spin {
     0% {
+      opacity: 0;
         -webkit-transform: rotate(0deg)
     }
 
     100% {
+      opacity: 0;
         -webkit-transform: rotate(360deg)
     }
 }
@@ -52,10 +54,10 @@ a {
 }
 
 a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
-  -webkit-transition:none !important;
-  -moz-transition:none !important;
-  -o-transition:none !important;
-  transition:none !important;
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
 }
 
 .gcpa,
@@ -64,10 +66,10 @@ a, div, body, .gcpa, .splash, .player, .player img, .overlay, .spin, .loading {
 .gcpa .gcpc,
 .gcpa .logo,
 .gcpa .splash {
-  -webkit-transition:none !important;
-  -moz-transition:none !important;
-  -o-transition:none !important;
-  transition:none !important;
+  -webkit-transition: all .1s ease !important;
+  -moz-transition: all .1s ease !important;
+  -o-transition: all .1s ease !important;
+  transition: all .1s ease !important;
     position: absolute;
     bottom: 0;
     left: 0;
