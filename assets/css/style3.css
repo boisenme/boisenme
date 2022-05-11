@@ -43,8 +43,6 @@ body {
   -moz-transition: all .1s ease !important;
   -o-transition: all .1s ease !important;
   transition: all .1s ease !important;  background-color: #000;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 
 .player {
